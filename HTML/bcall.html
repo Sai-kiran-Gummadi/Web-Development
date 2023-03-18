@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box {
+            margin-top: 20px;
+            border: 0.5px solid white;
+            min-height: 60px;
+            font-size: 1rem;
+            background-image: url(book-a-call-button.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        /* .col {
+            text-align: center;
+        } */
+        body {
+            border: 2px solid pink;
+            margin-top: 20px  ;
+            margin-left: 20%;
+            margin-right: 20%;
+            background-color: aliceblue;
+            
+        }
+        #about {
+            text-align: center;
+            font-size: small;
+        }
+        #b {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+   
+</head>
+
+<body>
+   <div class="container">
+    <div class="row">
+        <div class="col">
+              <div class="box"></div></div>
+        <div class="row">
+            <div class="col" id="about">Book a call slot and our representative will call you within 1hr of selected time</div>
+        </div>
+    </div>
+    <form>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="phone">Phone:</label>
+                    <input type="number" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="dateandtime">Time for call:</label>
+        
+                    
+                </div>
+                <div class="col">
+                    
+
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="date" class="form-control">
+                </div>
+                <div class="col">
+                    <input type="time" class="form-control">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" id="b">
+                    <button class="btn btn-danger" >submit</button>
+                </div>
+            </div>
+        </div>
+       
+        
+        
+        
+            
+        
+            <!-- <div class="row">
+                <div class="col">
+                    <label for="dateandtime">Time for call:</label>
+                    <input type="date" class="form-control">
+                <div class="col">
+                    <div class="time"><input type="time" class="form-control"></div>
+                </div>    
+                </div>  
+            </div> -->
+        </div>    
+    </form>
+   </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      
+</body>
+
+</html>

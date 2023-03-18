@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        form {
+            border: 2px solid orange;
+            width: 70%;
+            margin: auto;
+            background-color: white;
+            
+        }
+        p {
+            font-size: 12px;
+        }
+        h1,p {
+            text-align: center;
+        }
+        hr {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        
+        form input {
+            padding-top: 5px;
+
+            text-align: center;
+            width: 100%;
+            
+        }
+        #submit {
+            background-color: orange;
+            margin-top: 10px;
+            padding: 0 46.8%;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            color: white;
+            
+            
+        }
+        
+
+        .dateandtime {
+            width: 100%;
+        }
+
+        #button {
+            text-align: center;
+        }
+        body {
+            background-image: url('book-a-call.jpg');
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        
+        
+        <h1 style="color:orange">Book a call</h1>
+        <p>Book a call slot and our representative will call you within 1hr of selected time
+        </p>
+        <hr>
+        <div>
+        <label for="Name">Name:</label>
+        <br>
+        <input type="text" id="Name">
+        </div>
+        <br>
+        <div>
+        <label for="Email">Email:</label>
+        <br>
+        <input type="text" id="Email">
+        </div>
+        <br>
+        <div>
+        <label for="Phone">Phone:</label>
+        <br>
+        <input type="text" id="Phone">
+        </div>
+        <div>
+            <label >Time for call:</label>
+
+            <br>
+            <input type="date" class="dateandtime">
+            <input type="time" class="dateandtime" >
+            </div>
+        <input type="submit" value="Get a call" id="submit"> 
+          
+        
+    </form>
+</body>
+</html>
