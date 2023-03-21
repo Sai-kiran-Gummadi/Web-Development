@@ -1,7 +1,11 @@
-const items = document.querySelector('#items');
-items.children[2].style.background = 'green';
+const item = document.querySelectorAll('.list-group-item');
+item[1].style.color = 'green';
+// for (let i =0 ; i<item.length;i++){
+//     if (i/2==0){
+//         item[i].style.background = 'green';
+//     }
+// }
 
-items.style.fontWeight = 'bold';
-const li = document.getElementsByTagName('li');
-li[4].style.backgroundColor = 'green';
-console.log(li)
+item[0].style.background = 'green';
+item[2].style.background = 'green';
+// console.log(item.length)
